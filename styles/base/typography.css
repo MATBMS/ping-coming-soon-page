@@ -1,0 +1,92 @@
+/* TEXT PRESET */
+
+.text-preset-1-bold {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-48);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-1-light {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-48);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-2-bold {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-20);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-2-light {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-20);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-3-semi-bold {
+  text-align: justify;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-16);
+  font-style: normal;
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-3-light {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-16);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-4-semi-bold {
+  color: var(--color-text-primary);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-12);
+  font-style: normal;
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+}
+
+.text-preset-4-light {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-12);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-4-italic {
+  font-family: var(--font-family-italic);
+  font-size: var(--font-size-12);
+  font-style: italic;
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.text-preset-5 {
+  font-family: var(--font-family-italic);
+  font-size: var(--font-size-10);
+  font-style: italic;
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
