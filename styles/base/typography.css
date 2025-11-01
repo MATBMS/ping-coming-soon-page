@@ -8,6 +8,7 @@ h1 {
   font-weight: var(--font-weight-light);
   line-height: var(--line-height-tight);
   color: var(--color-gray-400);
+  text-align: center;
 }
 
 h1 span {
