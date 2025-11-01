@@ -14,14 +14,37 @@
   </head>
 
   <body>
-    <h1>We are launching soon!</h1>
-    <!-- 
-
-    Subscribe and get notified
-
-    Notify Me
-
-    &copy; Copyright Ping. All rights reserved. -->
+    <main>
+      <section class="main-container">
+        <div class="launch-info">
+          <img src="./icons/logo.svg" alt="Ping Logo" height="15px" width="55px" class="hero-logo">
+          <div class="launch-text">
+            <h1>We are launching <span>soon!</span></h1>
+            <p>Subscribe and get notified</p>
+          </div>
+          <!-- end launch-text -->
+          <form class="notify-me-form" novalidate>
+            <input type="email" name="email" id="email" placeholder="Your email address..." autocomplete="email"
+              required>
+            <button type="submit">Notify Me</button>
+            <p class="error-message" aria-live="polite"></p>
+          </form>
+        </div>
+        <!-- end launch-info -->
+        <img src="./images/illustration-dashboard.png" alt="illustration dashboard" height="190px" width="320px"
+          class="illustration-dashboard">
+      </section>
+    </main>
+    <footer>
+      <div class="social-media-icons">
+        <img src="./icons/facebook-f-brands.svg" alt="facebook icon" height="3&px" width="31px"
+          class="social-media-icon">
+        <img src="./icons/twitter-brands.svg" alt="twitter icon" height="31px" width="31px" class="social-media-icon">
+        <img src="./icons/instagram-brands.svg" alt="instagram icon" height="31px" width="31px"
+          class="social-media-icon">
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
     <script src="./scripts/main.js"></script>
   </body>
 

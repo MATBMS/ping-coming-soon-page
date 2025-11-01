@@ -1,0 +1,9 @@
+body {
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* style */
+  background-color: var(--color-white);
+}

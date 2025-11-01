@@ -1,0 +1,35 @@
+/* footer */
+footer {
+  /* layout */
+  display: flex;
+  width: calc(203 / 375 * 100vw);
+  max-width: 203px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-300);
+  margin-bottom: 35px;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+/* Social Media Icon */
+.social-media-icon {
+  height: 31px;
+  width: 31px;
+  /* Use filter to change SVG color from black to blue (#4C7BF3) */
+  filter: brightness(0) saturate(100%) invert(36%) sepia(85%) saturate(2270%) hue-rotate(220deg) brightness(98%) contrast(96%);
+  /* border */
+  border: 1px solid var(--color-blue-200);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* Copyright */
+footer p {
+  color: var(--color-gray-400);
+}

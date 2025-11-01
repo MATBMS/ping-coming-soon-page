@@ -100,10 +100,6 @@
   /* Error States */
   --color-error: var(--color-red-400);
 
-  /* Text Colors */
-  --color-text-primary: var(--color-blue-950);
-  --color-text-secondary: var(--color-gray-400);
-
   /* Background Colors */
   --color-bg-primary: #ffffff;
   --color-bg-secondary: #f8f9fa;
