@@ -38,3 +38,19 @@ input::placeholder {
   color: var(--color-red);
   margin-top: var(--spacing-50);
 }
+
+/* TABLET (768px and up) */
+
+@media (min-width: 768px) {
+  input {
+    /* layout */
+    width: calc(421 / 768 * 100vw);
+    height: 56px;
+    /* typography */
+    font-size: var(--font-size-16);
+  }
+}
+
+/* DESKTOP (1440px and up) */
+
+@media (min-width: 1440px) {}

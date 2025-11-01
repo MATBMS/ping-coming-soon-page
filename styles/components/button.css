@@ -17,3 +17,17 @@ button {
   line-height: var(--line-height-tight);
   color: var(--color-white);
 }
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {
+  button {
+    /* layout */
+    padding: 18px 62.5px;
+    height: 56px;
+    /* typography */
+    font-size: var(--font-size-16);
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {}

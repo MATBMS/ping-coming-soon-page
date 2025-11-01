@@ -31,5 +31,17 @@ footer {
 
 /* Copyright */
 footer p {
+  /* text-preset-4-light */
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-12);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
   color: var(--color-gray-400);
 }
+
+/* TABLET (768px and up) */
+@media (min-width: 768px) {}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 1440px) {}

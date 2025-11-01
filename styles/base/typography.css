@@ -102,6 +102,15 @@ p {
     line-height: var(--line-height-tight);
     color: var(--color-blue-950);
   }
+
+  p {
+    /* text-preset-2-light */
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-20);
+    font-style: normal;
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-tight);
+  }
 }
 
 /* DESKTOP (1440px and up) */
