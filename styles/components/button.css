@@ -28,6 +28,3 @@ button {
     font-size: var(--font-size-16);
   }
 }
-
-/* DESKTOP (1440px and up) */
-@media (min-width: 1440px) {}

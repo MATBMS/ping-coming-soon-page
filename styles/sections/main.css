@@ -71,6 +71,7 @@ main {
   main {
     /* layout */
     width: calc(712 / 768 * 100vw);
+    max-width: 712px;
     margin-bottom: 75px;
   }
 
@@ -108,7 +109,3 @@ main {
     height: 382.876px;
   }
 }
-
-/* DESKTOP (1440px and up) */
-
-@media (min-width: 1440px) {}

@@ -45,12 +45,9 @@ input::placeholder {
   input {
     /* layout */
     width: calc(421 / 768 * 100vw);
+    max-width: 421px;
     height: 56px;
     /* typography */
     font-size: var(--font-size-16);
   }
 }
-
-/* DESKTOP (1440px and up) */
-
-@media (min-width: 1440px) {}

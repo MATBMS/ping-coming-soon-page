@@ -39,9 +39,3 @@ footer p {
   line-height: var(--line-height-tight);
   color: var(--color-gray-400);
 }
-
-/* TABLET (768px and up) */
-@media (min-width: 768px) {}
-
-/* DESKTOP (1440px and up) */
-@media (min-width: 1440px) {}

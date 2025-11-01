@@ -57,8 +57,6 @@ p {
   line-height: var(--line-height-tight);
 }
 
-
-
 .text-preset-4-italic {
   font-family: var(--font-family-italic);
   font-size: var(--font-size-12);
@@ -76,11 +74,6 @@ p {
   line-height: var(--line-height-tight);
   color: var(--color-blue-950);
 }
-
-
-
-/* SMALL MOBILE (375px and up) */
-@media (min-width: 375px) {}
 
 /* TABLET (768px and up) */
 @media (min-width: 768px) {
@@ -112,6 +105,3 @@ p {
     line-height: var(--line-height-tight);
   }
 }
-
-/* DESKTOP (1440px and up) */
-@media (min-width: 1440px) {}
