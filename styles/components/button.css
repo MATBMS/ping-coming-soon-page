@@ -18,6 +18,11 @@ button {
   color: var(--color-white);
 }
 
+button:disabled {
+  background: var(--color-blue-200);
+  cursor: not-allowed;
+}
+
 /* TABLET (768px and up) */
 @media (min-width: 768px) {
   button {

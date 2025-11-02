@@ -24,16 +24,22 @@
           </div>
           <!-- end launch-text -->
           <form class="notify-me-form" novalidate>
-            <input type="email" name="email" id="email" placeholder="Your email address..." autocomplete="email"
-              required>
+            <div class="email-field">
+              <input type="email" name="email" id="email" placeholder="Your email address..." autocomplete="email"
+                required>
+              <div id="email-error" class="error-message hide" role="alert">Please enter a valid email address</div>
+            </div>
             <button type="submit">Notify Me</button>
-            <p class="error-message" aria-live="polite"></p>
           </form>
         </div>
         <!-- end launch-info -->
         <img src="./images/illustration-dashboard.png" alt="illustration dashboard" height="190px" width="320px"
           class="illustration-dashboard">
       </section>
+      <!-- Pop-up notification -->
+      <div id="pop-up" class="hide">
+        <p class="pop-up-message">Thanks for subscribing!</p>
+      </div>
     </main>
     <footer>
       <div class="social-media-icons">
@@ -45,7 +51,7 @@
       </div>
       <p>&copy; Copyright Ping. All rights reserved.</p>
     </footer>
-    <script src="./scripts/main.js"></script>
+    <script src="./scripts/subscription-form.js"></script>
   </body>
 
 </html>

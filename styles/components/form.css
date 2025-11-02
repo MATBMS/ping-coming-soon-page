@@ -29,14 +29,32 @@ input::placeholder {
 
 /* ERROR MESSAGE */
 
-.error-message {
+.email-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.error-field {
   font-family: var(--font-family-primary);
-  font-size: var(--font-size-10);
+  font-size: var(--font-size-12);
   font-style: normal;
   font-weight: var(--font-weight-normal);
   line-height: var(--line-height-tight);
-  color: var(--color-red);
-  margin-top: var(--spacing-50);
+  border: 1px solid var(--color-red-400);
+}
+
+.error-message {
+  /* text-preset-4-light */
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-12);
+  font-style: normal;
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tight);
+  color: var(--color-red-400);
+  margin-top: 8px;
 }
 
 /* TABLET (768px and up) */
@@ -49,5 +67,20 @@ input::placeholder {
     height: 56px;
     /* typography */
     font-size: var(--font-size-16);
+  }
+
+  .email-field {
+    align-items: flex-start;
+    width: calc(421 / 768 * 100vw);
+    max-width: 421px;
+  }
+
+  .error-field {
+    font-size: var(--font-size-16);
+  }
+
+  .error-message {
+    font-size: var(--font-size-16);
+    margin-left: 32px;
   }
 }
