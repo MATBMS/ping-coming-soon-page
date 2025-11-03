@@ -16,3 +16,5 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - HTML, CSS, JavaScript
 
 ## What I learned
+
+This project helped me learn to manage form validation and display a success pop-up with JavaScript, enhancing user interaction and providing immediate feedback for form submissions.
