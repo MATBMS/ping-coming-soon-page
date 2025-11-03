@@ -55,6 +55,7 @@ input::placeholder {
   line-height: var(--line-height-tight);
   color: var(--color-red-400);
   margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 /* TABLET (768px and up) */
@@ -82,5 +83,6 @@ input::placeholder {
   .error-message {
     font-size: var(--font-size-16);
     margin-left: 32px;
+    margin-bottom: 0px;
   }
 }
