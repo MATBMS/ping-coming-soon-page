@@ -24,33 +24,35 @@
           </div>
           <!-- end launch-text -->
           <form class="notify-me-form" novalidate>
+            <label for="email" class="sr-only">Email Address</label>
             <div class="email-field">
               <input type="email" name="email" id="email" placeholder="Your email address..." autocomplete="email"
-                required>
-              <div id="email-error" class="error-message hide" role="alert">Please enter a valid email address</div>
+                aria-describedby="email-error" aria-invalid="false" required>
+              <div id="email-error" class="error-message hide" role="alert" aria-live="polite">Please enter a valid
+                email address</div>
             </div>
             <button type="submit">Notify Me</button>
           </form>
         </div>
         <!-- end launch-info -->
-        <img src="./images/illustration-dashboard.png" alt="illustration dashboard" height="190px" width="320px"
-          class="illustration-dashboard">
+        <img src="./images/illustration-dashboard.png" alt="Dashboard interface mockup showing analytics and charts"
+          height="190px" width="320px" class="illustration-dashboard">
       </section>
       <!-- Pop-up notification -->
-      <div id="pop-up" class="hide">
+      <div id="pop-up" class="hide" role="alert" aria-live="assertive" aria-atomic="true">
         <p class="pop-up-message">Thanks for subscribing!</p>
       </div>
     </main>
     <footer>
       <div class="social-media-icons">
-        <a href="#" class="social-media-icon">
-          <img src="./icons/facebook-f-brands.svg" alt="facebook icon">
+        <a href="#" class="social-media-icon" aria-label="Follow us on Facebook">
+          <img src="./icons/facebook-f-brands.svg" alt="" role="presentation">
         </a>
-        <a href="#" class="social-media-icon">
-          <img src="./icons/twitter-brands.svg" alt="twitter icon">
+        <a href="#" class="social-media-icon" aria-label="Follow us on Twitter">
+          <img src="./icons/twitter-brands.svg" alt="" role="presentation">
         </a>
-        <a href="#" class="social-media-icon">
-          <img src="./icons/instagram-brands.svg" alt="instagram icon">
+        <a href="#" class="social-media-icon" aria-label="Follow us on Instagram">
+          <img src="./icons/instagram-brands.svg" alt="" role="presentation">
         </a>
       </div>
       <p>&copy; Copyright Ping. All rights reserved.</p>
